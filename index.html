@@ -152,7 +152,7 @@
 <body>
   <div id="game-container">
     <div id="top-left-text">3차 컴플라이언스 이벤트!</div>
-    <div id="word-counter">0 / 25개</div>
+    <div id="word-counter">0 / 20개</div>
     <div id="start-screen"><button id="start-button">Game Start!</button></div>
     <button id="restart-btn">Restart!</button>
     <div id="timer">00.00초</div>
@@ -182,7 +182,7 @@
     let totalWords = 25;
     let typedCount = 0;
     let gameEnded = false;
-    let fallSpeed = 1;
+    let fallSpeed = 2;
 
     function calculateSpeed() {
       const screenRatio = window.innerHeight / window.innerWidth;
